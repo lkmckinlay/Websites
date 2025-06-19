@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fdfbf7;
+}
+body {
+  background-repeat: no-repeat;
+  color: #092e4b;
+  background-blend-mode: lighten;
+}
+.me {
+  color: orange;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  text-align: center;
+  margin-left: -5px;
+}
+.navDiv {
+  text-align: center;
+}
+nav a {
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+nav a:hover {
+  background-color: orange;
+}
+
+header {
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin: 20px;
+}
+header h1 {
+  font-size: 7rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+button {
+  height: 45px;
+  width: 110px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #eeffff;
+  border: none;
+}
+button:hover {
+  background-color: orange;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  padding: 3rem max(1rem, calc((100% - 40rem) / 2));
+  position: relative;
+  margin-top: 3rem;
+}
+.main {
+  width: 100%;
+}
+
+i {
+  padding: 10px;
+  cursor: pointer;
+  left: 0;
+}
+
+.nt {
+  color: orange;
+}
+section#Contact {
+  text-align: center;
+}
+
+section#features {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5px;
+}
+
+div#examples {
+  width: 15rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgba(255, 165, 0, 0.8);
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+div#examples img {
+  width: 13rem;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+section#about {
+  font-size: 1.3rem;
+}
+section#about h1 {
+  font-size: 1.9rem;
+}
